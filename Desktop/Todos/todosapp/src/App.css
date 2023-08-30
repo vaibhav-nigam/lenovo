@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.head{
+  background-color: rgb(255, 255,255);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0.3);
+
+}
+.head > a{
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+
+}
+
+.header {
+  color: black;
+  background-color: rgb(141, 199, 233);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: larger;
+
+}
+
+.container{
+  background-color: rgb(204, 197, 162);
+  margin: auto;
+  width: 70%;
+  box-sizing: border-box;
+  height: 100vh;
+
+}
+
+.container > h1{
+  text-align: center;
+  font-weight:lighter ;
+  text-decoration: underline;
+  color: rgba(30, 40, 300, 250);
+  margin:auto;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container > form > input,textarea,button{
+  padding: 20px;
+  border: 1px solid rgba(0,0, 0, 214) ;
+  border-radius: 5px;
+  text-align: center;
+  margin: 1.5px;
+  background-color: rgb(212, 158, 169);
+  font-size: 1.2rem;
+
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: crimson;
+  color: white;
+}
+
+.task{
+  display: flex;
+  background-color: rgb(241, 132, 132);
+  text-align: center;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.task span{
+  color: rgb(5, 5, 5);
+}
+
+.task > div{
+
+  width: 100%;
+}
+
+.task button{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  background-color: blueviolet;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task button:hover{
+  background-color: purple;
+}
