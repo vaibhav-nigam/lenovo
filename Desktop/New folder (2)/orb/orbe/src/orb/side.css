@@ -1,0 +1,38 @@
+/* App container */
+.Side {
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Hide both horizontal and vertical scrollbars */
+    position: relative;
+  }
+  
+  /* Content container */
+  
+  
+  /* Moving div */
+  .movingDiv {
+    width: 100px;
+    height: 100px;
+    top: 0%;
+    left: -100px;
+    background-color: #3498db;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1; /* Ensure it's on top of the content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  /* Additional styling for animation */
+  .movingDiv {
+    /* Center the div vertically and start it off the left edge */
+    top: 50%;
+    left: -100px;
+    transform: translateY(-50%);
+    /* Transition property for smoother animation */
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Move the div to the right when it's active */
+  .movingDiv.active {
+    transform: translateY(-50%) translateX(100%);
+  }
+  

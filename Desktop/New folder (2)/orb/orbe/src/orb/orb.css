@@ -1,0 +1,30 @@
+body{
+    background: black
+}
+.Orb {
+    font-family: Arial, sans-serif;
+    overflow: hidden; 
+    position: relative;
+    ;
+  }
+  
+  /* Content container */
+  .content {
+    padding: 20px;
+    height: 200vh; /* Adjust to create enough space for scrolling */
+  }
+  
+  /* Moving div */
+  .movingDiv {
+    width: 100px;
+    height: 100px;
+    background-color: #70d9dd;
+    right: 0;
+    transform: translateX(100%) , translateY(100%);
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1; 
+    filter: blur(50px);
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
