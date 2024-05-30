@@ -1,0 +1,92 @@
+*{
+    /*background-color: black;*/
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#page1{
+    background-color: rgb(223, 88, 110);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page1 .words{
+    display: flex;
+    font-size: 40px;
+    color:  darkviolet;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.page2{
+    background-color: rgba(223, 88, 111, 0.63);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.page2 .box1{
+    transform: scale(0);
+}
+.page2 .words{
+    display: flex;
+    font-size: 40px;
+    color:  darkviolet;
+    background-color: white;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    justify-content: center;
+}
+
+.page3{
+    background-color: rgba(223, 88, 111, 0.39);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        flex-direction: column;
+        position: absolute;
+        color: darkviolet;
+        background-color: white;
+        
+    }
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(230, 236, 217, 0.952);
+    /*border-radius: 50%;    */
+}
+
+.last{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(253, 215, 244);
+    h1{
+        font-size: 30vw;
+        
+        }
+}
